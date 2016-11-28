@@ -1,0 +1,15 @@
+<img src="<%= static_path(@conn, "/images/ptb2.png") %>">
+<br/>
+    &nbsp;&nbsp;&nbsp;<strong>a:</strong>
+    <%= @log.a %>&nbsp;&nbsp;
+
+    <strong>b:</strong>
+    <%= @log.b %>&nbsp;&nbsp;
+
+    <strong>c:</strong>
+    <%= @log.c %>
+<br/><br/>
+    <%= @log.result %>
+<br/><br/>
+<%= link "Edit", to: log_path(@conn, :edit, @log) %>
+<%= link "Back", to: log_path(@conn, :index) %>

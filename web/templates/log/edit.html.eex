@@ -1,0 +1,5 @@
+<img src="<%= static_path(@conn, "/images/ptb2.png") %>">
+<%= render "form.html", changeset: @changeset,
+                        action: log_path(@conn, :update, @log) %>
+
+<%= link "Back", to: log_path(@conn, :index) %>

@@ -1,0 +1,7 @@
+<h2>Lê Văn Ban</h2>
+Chương trình tính giải phương trình bậc 2: <img src="<%= static_path(@conn, "/images/ptb2.png") %>">
+Nhập vào các giá trị a,b,c rồi ấn nút Giải</br>
+Chương trình mang tính chất giải trí và làm quen với Elixir on Phoenix</br>
+</br>
+Ấn <%= link "vào đây", to: log_path(@conn, :index), class: "btn btn-default" %> để đến chương trình giải phương trình bậc 2
+
