@@ -20,11 +20,9 @@
   </div>
 
   <div class="col-lg-6">
-    <h4>Help</h4>
+    <h4>Project</h4>
     <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
+      <li><%= link "Giai PTB2", to: log_path(@conn, :index) %></li>
       <li>
         <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
       </li>

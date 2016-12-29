@@ -3,6 +3,8 @@ require IEx
 defmodule HelloPhoenix.LogController do
   use HelloPhoenix.Web, :controller
 
+  plug HelloPhoenix.Plug.Authenticate
+
   alias HelloPhoenix.Log
 
   def index(conn, _params) do

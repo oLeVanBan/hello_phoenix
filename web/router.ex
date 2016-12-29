@@ -19,6 +19,10 @@ defmodule HelloPhoenix.Router do
     get "/", PageController, :index
     get "introduction", PageController, :introduction
     resources "/logs", LogController
+
+    get    "/login",  SessionController, :new
+    post   "/login",  SessionController, :create
+    delete "/logout", SessionController, :delete
   end
 
 
