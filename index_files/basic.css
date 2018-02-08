@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*----------------------------------------------------------基本設定:サイト幅*/
+/*---------------------------------------------------------------------------*/
+html, body {
+	background: #FFF;
+	padding:0 0 0 0;
+}
+ul.contentsLi li {
+	background:url(../_image/arrow.gif) no-repeat right center;
+	background-size:21px 13px;
+	border-bottom:1px solid #b1b1b1;
+}
+ul.contentsLi li a {
+	font-size:14px;
+	font-weight:bold;
+	color:#333;
+}
+ul.contentsLi li a em {
+	font-size:14px;
+	font-weight:bold;
+	color:#C00;
+}
+ul.contentsLi li a span {
+	display:block;
+	font-size:11px;
+	line-height:1.4;
+	font-weight:normal;
+	color:#333;
+}
+ul.contentsLi li a:link {
+	display:block;
+	background:url(../_image/icon.jpg) no-repeat 8px 8px;
+	background-size:50px 50px;
+	padding:10px 26px 10px 30px;
+	text-decoration:none;
+}
+ul.contentsLi li a:visited {
+	display:block;
+	background:url(../_image/icon.jpg) no-repeat 8px 8px;
+	background-size:50px 50px;
+	padding:10px 26px 10px 30px;
+	text-decoration:none;
+}
+.thumbnail {
+	float:left;
+	padding-right:10px;
+}
+.text {
+	padding:12% 5% 5%;
+}
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------ipad用*/
+/*---------------------------------------------------------------------------*/
+ @media screen and (min-width: 481px) {
+ul.contentsLi li a {
+ font-size:24px;
+ font-weight:bold;
+ color:#333;
+}
+ ul.contentsLi li a span {
+ display:block;
+ padding:4px 0 0 0;
+ font-size:13px;
+ line-height:1.4;
+ font-weight:normal;
+ color:#333;
+}
+ ul.contentsLi li a:link {
+ display:block;
+ background:url(../_image/icon_ipad.jpg) no-repeat 8px 8px;
+ background-size:70px 70px;
+ padding:12px 44px 14px 40px;
+ text-decoration:none;
+}
+ ul.contentsLi li a:visited {
+ display:block;
+ background:url(../_image/icon_ipad.jpg) no-repeat 8px center;
+ background-size:70px 70px;
+ padding:12px 44px 14px 40px;
+ text-decoration:none;
+}
+img {
+	max-width:100%;
+}
+
+.thumbnail {
+	float:left;
+	padding-right:10px;
+}
+.text {
+	padding:5% 0 0;
+}
+}
